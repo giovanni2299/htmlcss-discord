@@ -41,8 +41,11 @@ a {
     padding: 4px;
 }
 
+.padding50{
+    padding: 50px;
+}
 .padding30{
-    padding: 30px;
+    padding: 30px 0;
 }
 
 .justify-center{
@@ -259,15 +262,17 @@ header{
 /* /Fine parte top del footer */
 
 /* inizio parte bottom del footer */
-.logo-bottom{
-    
+.container-border-top{
+    border-top:1px solid #255ee9;
 }
 
 .logo-bottom > img{
+    margin-top: 15px;
     width: 100px;
 }
 
 .button{
+    margin-top: 15px;
     background-color: #255ee9;
     padding: 5px 0;
     width: 90px;
