@@ -31,10 +31,6 @@ a {
     flex-wrap: wrap;
 }
 
-[class^="col"]{
-    
-}
-
 .container{
     max-width: 900px;
     margin: 0 auto;
@@ -280,15 +276,3 @@ header{
     text-align: center;
     border-radius: 10px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
