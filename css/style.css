@@ -36,7 +36,6 @@ a {
 }
 
 .container{
-    border: 1px solid black;
     max-width: 900px;
     margin: 0 auto;
     padding: 4px;
@@ -74,7 +73,7 @@ a {
 
 /* Inizio CSS del Header */
 header{
-    background-color: lightblue;
+    background-color: #255ee9;
     padding: 20px; 
 }
 
@@ -108,7 +107,9 @@ header{
 /* Inizio section magenta big square */
 
 .bg-blue{
-    background-color: blue;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: center;
 }
 
 .col85{
@@ -118,7 +119,6 @@ header{
 
 .magenta{
     color: white;
-    background-color: rgb(245, 46, 218);
 }
 
 .magenta > h1,p {
@@ -161,14 +161,7 @@ header{
 
 .col40{
     width: 40%;
-}
-
-.blue{
-    background-color: rgb(0, 102, 255);
-}
-
-.pink{
-    background-color: pink; 
+    
 }
 
 .pink > h1 {
@@ -228,15 +221,23 @@ header{
 }
 
 .salmon{
-    background-color: salmon;
+    
 }
 .col-40-title{
-    font-size: 20px;
+    font-size: 25px;
     color: rgb(70, 43, 226);
+    margin-bottom: 20px;
+}
+.flag{
+    width: 20px;
+}
+
+.flag-language{
+    font-size: 10px;
 }
 
 .lightgreen{
-    background-color: lightgreen;
+    
 }
 
 .col40{
@@ -245,16 +246,34 @@ header{
 
 .col15{
     width: 15%;
+    padding: 30px 0;
+}
+.mrg-bottom > li{
+    margin-bottom: 10px;
+}
+
+.col-15-title{
+    color: rgb(70, 43, 226);
+    /* margin-bottom: 10px; */
 }
 /* /Fine parte top del footer */
 
 /* inizio parte bottom del footer */
 .logo-bottom{
-    background-color: orange;
+    
+}
+
+.logo-bottom > img{
+    width: 100px;
 }
 
 .button{
-    background-color: orange;
+    background-color: #255ee9;
+    padding: 5px 0;
+    width: 90px;
+    font-size:13px;
+    text-align: center;
+    border-radius: 10px;
 }
 
 
