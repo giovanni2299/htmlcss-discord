@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 ul,ol menu{
@@ -31,7 +32,7 @@ a {
 }
 
 [class^="col"]{
-    border: 1px solid black;
+    
 }
 
 .container{
@@ -57,6 +58,15 @@ a {
     flex-direction: row-reverse;
 }
 
+.apri-nel-browser, 
+.download-mac{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    border: 1px solid black;
+    width: 100px;
+}
+
 /* /Fine regole di LAYOUT */
 
 /* Inizio CSS del Header */
@@ -76,11 +86,16 @@ header{
 }
 
 .links{
+    color: white;
     padding: 10px;
 }
 
 .login{
-    text-align: right;
+    border-radius: 10px;
+    background-color: white;
+    display: inline-block;
+    align-self: center;
+    color:black;
     padding: 10px ;
 }
 
@@ -93,14 +108,30 @@ header{
     background-color: blue;
 }
 
-.col80{
-    width: 80%;
+.col85{
+    width: 85%;
     min-height: 200px;
 }
 
 .magenta{
+    color: white;
     background-color: rgb(245, 46, 218);
 }
+
+.magenta > h1,p {
+    text-align: center;
+}
+
+.magenta > h1{
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.magenta > p{
+    line-height:30px;
+    font-size: 20px;
+}
+
 /* /Fine section magenta big square */
 
 /* Inizio section white-dobule-squere */
@@ -122,6 +153,10 @@ header{
 
 .pink{
     background-color: pink; 
+}
+
+.pink > h1 {
+    
 }
 /* /Fine section white-dobule-squere */
 
