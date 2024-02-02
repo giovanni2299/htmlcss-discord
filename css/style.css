@@ -105,10 +105,10 @@ header{
 
 /* Inizio section magenta big square */
 
-.bg-blue{
+.bg-jumbo{
     background-image: url(../img/jumbo.png);
     background-size: cover;
-    background-position: center;
+    background-position:center;
 }
 
 .col85{
