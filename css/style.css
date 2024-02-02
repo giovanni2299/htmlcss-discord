@@ -60,11 +60,14 @@ a {
 
 .apri-nel-browser, 
 .download-mac{
+    text-align: center;
+    border-radius: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
     display: inline-block;
     border: 1px solid black;
-    width: 100px;
+    width: 200px;
+    padding: 10px;
 }
 
 /* /Fine regole di LAYOUT */
@@ -126,10 +129,22 @@ header{
     margin-bottom: 20px;
     font-size: 40px;
 }
-
+.apri-nel-browser{
+    background-color: black;
+}
+.download-mac{
+    background-color: white;
+    color: black;
+}
 .magenta > p{
     line-height:30px;
     font-size: 20px;
+}
+
+.interaction-part{
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
 }
 
 /* /Fine section magenta big square */
@@ -156,7 +171,14 @@ header{
 }
 
 .pink > h1 {
-    
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.pink > p {
+    line-height: 30px;
+    text-align: left;
+    font-size: 17px;
 }
 /* /Fine section white-dobule-squere */
 
@@ -176,8 +198,24 @@ header{
 .col100{
     width: 100%;
 }
-.green{
-    background-color: green;
+
+.item4-iteraction{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+.container-big > h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+.container-big > p{
+    text-align: center;
+    font-size: 15px;
+    line-height: 25px;
 }
 /* /Fine section big-square-green */
 
