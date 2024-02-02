@@ -73,7 +73,7 @@ a {
 /* Inizio CSS del Header */
 header{
     background-color: #255ee9;
-    padding: 20px; 
+    /* padding: 20px;  */
 }
 
 .row-header .links{
