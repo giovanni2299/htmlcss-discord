@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,ol menu{
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+/* RESET */
+
+/* LAYOUT */
+.row-main > *,
+.row-footer-top > *{
+    min-height: 200px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+[class^="col"]{
+    border: 1px solid black;
+}
+
+.container{
+    border: 1px solid black;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 4px;
+}
+
+.padding30{
+    padding: 30px;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.row-reverse{
+    flex-direction: row-reverse;
+}
+
+/* /Fine regole di LAYOUT */
+
+/* Inizio CSS del Header */
+header{
+    background-color: lightblue;
+    padding: 20px; 
+}
+
+.row-header .links{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.logo-top{
+    padding: 10px;
+}
+
+.links{
+    padding: 10px;
+}
+
+.login{
+    text-align: right;
+    padding: 10px ;
+}
+
+
+/* /Fine parte CSS del Header */
+
+/* Inizio section magenta big square */
+
+.bg-blue{
+    background-color: blue;
+}
+
+.col80{
+    width: 80%;
+    min-height: 200px;
+}
+
+.magenta{
+    background-color: rgb(245, 46, 218);
+}
+/* /Fine section magenta big square */
+
+/* Inizio section white-dobule-squere */
+.bg-white{
+    background-color: white;
+}
+
+.col60{
+    width: 60%;
+}
+
+.col40{
+    width: 40%;
+}
+
+.blue{
+    background-color: rgb(0, 102, 255);
+}
+
+.pink{
+    background-color: pink; 
+}
+/* /Fine section white-dobule-squere */
+
+/* Inizio section bg-gray */
+.bg-gray{
+    background-color: gray;
+}
+
+/* /Fine section bg-gray */
+
+/* Inizio section big-squere-green */
+.container-big{
+    width: 100%;
+    min-height: 500px;
+}
+
+.col100{
+    width: 100%;
+}
+.green{
+    background-color: green;
+}
+/* /Fine section big-square-green */
+
+/* Inizio parte del footer */
+.bg-black{
+    background-color: rgb(47, 46, 46);
+    color: white;
+}
+
+.salmon{
+    background-color: salmon;
+}
+
+.lightgreen{
+    background-color: lightgreen;
+}
+
+.col40{
+    width: 40%;
+}
+
+.col15{
+    width: 15%;
+}
+/* /Fine parte top del footer */
+
+/* inizio parte bottom del footer */
+.logo-bottom{
+    background-color: orange;
+}
+
+.button{
+    background-color: orange;
+}
+
+
+
+
+
+
+
+
+
+
+
+
